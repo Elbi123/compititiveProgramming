@@ -10,7 +10,6 @@ import sys
 
 
 def findMedian(arr):
-    mid = 0
     for i in range(1, len(arr)):
         item = arr[i]
         j = i - 1
